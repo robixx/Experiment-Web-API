@@ -1,0 +1,6 @@
+@WorkExperianceAPI_HostAddress = http://localhost:5236
+
+GET {{WorkExperianceAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
