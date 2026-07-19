@@ -1,3 +1,7 @@
 <Solution>
+  <Project Path="Work.Configuration/Work.Configuration.csproj" Id="d4033103-c972-46dc-aeb0-1b67db1c051e" />
+  <Project Path="Work.Models/Work.Models.csproj" Id="e515b6ff-69a6-43f1-8ae3-2e09bf5d4008" />
+  <Project Path="Work.Repository/Work.Repository.csproj" Id="1f98037f-db2c-42c1-8c9d-4974111af480" />
+  <Project Path="Work.Service/Work.Service.csproj" Id="4e4f8313-b417-404d-9d77-9e3a6da5c5fd" />
   <Project Path="WorkExperianceAPI/WorkExperianceAPI.csproj" />
 </Solution>
