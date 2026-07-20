@@ -24,6 +24,7 @@ namespace Work.Configuration.Dependency
             services.AddSingleton(jwtSettings);
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IAuthService, AuthService>();
+            services.AddScoped<IImageCompressionService, ImageCompressionService>();
             return services;
         }
     }
