@@ -25,6 +25,8 @@ namespace Work.Configuration.Dependency
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IAuthService, AuthService>();
             services.AddScoped<IImageCompressionService, ImageCompressionService>();
+            services.AddScoped<ISystemConfigureService, SystemConfigureService>();
+            services.AddScoped<ISystemConfigureRepository, SystemConfigureRepository>();
             return services;
         }
     }
